@@ -1,0 +1,16 @@
+class Fact{
+int fact(n)
+ { int res;
+   if(n==1)
+     return 1;
+    else
+       res=fact(n-1)*n;
+        return res;
+      }
+  }
+
+class rec{
+public static void main(String args[])
+{ Fact f =new Fact();
+  System.out.println( "3is"+f.fact(3));
+}}
